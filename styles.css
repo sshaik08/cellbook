@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+* {
+   border: 0;
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   background-color: #A9D6E5;
+   align-items: center;
+   color: #013A63;
+   line-height: 1.5em;
+}
+
+
+#head {
+   text-align: center;
+   color: #013A63;
+   margin: 30px;
+   background-color: #61A5C2;
+   line-height: 3em;
+}
+
+#main {
+   margin: 30px;
+   padding: 15px;
+   line-height: 1.5em;
+   background-color: #BCECF6;
+   width: 50%;
+}
+
+#icon {
+   border: none;
+}
+
+nav.pagenavigation {
+	margin: 30px;
+   margin-top: 15px;
+   color: #013A63;
+   background-color: #61A5C2;
+   position: relative;
+}
+
+nav.pagenavigation p {
+	display: inline-block;
+	margin: 0.75em;
+   font-weight: bold;
+}
+
+nav.pagenavigation a:link {
+	text-decoration: none;
+   color: #013A63;
+}
+
+nav.pagenavigation a:visited {
+   color: #013A63;
+}
+
+img {
+   border: 5px solid #013A63;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   }
+
+#main a:link {
+   color: #013A63;
+}
+
+#cells {
+   display: flex; /* Makes the items inside the nav bar align horizontally */
+   justify-content: center; /* Centers the items horizontally */
+   gap: 20px; /* Adds space between the links */
+   padding: 10px; /* Adds padding around the links */
+   border-radius: 5px; /* Optional: Rounded corners */
+   margin: 30px;
+   line-height: 1.5em;
+   background-color: #61A5C2;
+}
+
+#cells p {
+   margin: 0; /* Removes default margin from <p> elements */
+}
+
+#cells a {
+   text-decoration: none; /* Removes underline from links */
+   color: #013A63; /* Sets the text color */
+   font-weight: bold; /* Makes the text bold */
+   padding: 5px 10px; /* Adds padding inside the links */
+   border-radius: 5px; /* Adds rounded corners to links */
+   transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+}
+
+#cells a:hover {
+   background-color: #013A63; /* Changes background color on hover */
+   color: white; /* Changes text color on hover */
+}
